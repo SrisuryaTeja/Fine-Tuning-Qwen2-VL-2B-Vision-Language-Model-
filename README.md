@@ -31,8 +31,7 @@ The script will perform the following steps:
 3. Load the base model and configure LoRA.
 4. Configure the Trainer.
 5. Train the model (unless `--skip-train` is specified).
-6. Evaluate the base and fine-tuned models using the METEOR metric.
-7. Merge the LoRA adapters and save the final model.
+6. Merge the LoRA adapters and save the final model.
 
 ## API
 
